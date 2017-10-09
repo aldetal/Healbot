@@ -1,26 +1,26 @@
-Ôªø-- Brazilian translator required
+√Ø¬ª¬ø-- Brazilian translator required
 
 ---------------
 -- Brazilian --
 ---------------
 --
 -------------
--- ¿ = \195\128
--- ¡ = \195\129
--- ¬ = \195\130
---   = \195\138
--- Õ = \195\141
--- ‡ = \195\160
--- · = \195\161
--- ‚ = \195\162
--- „ = \195\163
--- Á = \195\167
--- È = \195\169
--- Í = \195\170
--- Ì = \195\173
--- Û = \195\179
--- ı = \195\181
--- ˙ = \195\186
+-- √Ä = \195\128
+-- √Å = \195\129
+-- √Ç = \195\130
+-- √ä = \195\138
+-- √ç = \195\141
+-- √† = \195\160
+-- √° = \195\161
+-- √¢ = \195\162
+-- √£ = \195\163
+-- √ß = \195\167
+-- √© = \195\169
+-- √™ = \195\170
+-- √≠ = \195\173
+-- √≥ = \195\179
+-- √µ = \195\181
+-- √∫ = \195\186
 --
 -- (http://www.wowwiki.com/Localizing_an_addon)
 --
@@ -159,18 +159,18 @@ function HealBot_Lang_ptBR()
     HEALBOT_OPTIONS_BUTTONLEFT              = "Esquerdo";
     HEALBOT_OPTIONS_BUTTONMIDDLE            = "Meio";
     HEALBOT_OPTIONS_BUTTONRIGHT             = "Direito";
-    HEALBOT_OPTIONS_BUTTON4                 = "Bot\195\163o4";
-    HEALBOT_OPTIONS_BUTTON5                 = "Bot\195\163o5";
-    HEALBOT_OPTIONS_BUTTON6                 = "Bot\195\163o6";
-    HEALBOT_OPTIONS_BUTTON7                 = "Bot\195\163o7";
-    HEALBOT_OPTIONS_BUTTON8                 = "Bot\195\163o8";
-    HEALBOT_OPTIONS_BUTTON9                 = "Bot\195\163o9";
-    HEALBOT_OPTIONS_BUTTON10                = "Bot\195\163o10";
-    HEALBOT_OPTIONS_BUTTON11                = "Bot\195\163o11";
-    HEALBOT_OPTIONS_BUTTON12                = "Bot\195\163o12";
-    HEALBOT_OPTIONS_BUTTON13                = "Bot\195\163o13";
-    HEALBOT_OPTIONS_BUTTON14                = "Bot\195\163o14";
-    HEALBOT_OPTIONS_BUTTON15                = "Bot\195\163o15";
+    HEALBOT_OPTIONS_BUTTON4                 = "Bot\195\163o 4";
+    HEALBOT_OPTIONS_BUTTON5                 = "Bot\195\163o 5";
+    HEALBOT_OPTIONS_BUTTON6                 = "Bot\195\163o 6";
+    HEALBOT_OPTIONS_BUTTON7                 = "Bot\195\163o 7";
+    HEALBOT_OPTIONS_BUTTON8                 = "Bot\195\163o 8";
+    HEALBOT_OPTIONS_BUTTON9                 = "Bot\195\163o 9";
+    HEALBOT_OPTIONS_BUTTON10                = "Bot\195\163o 10";
+    HEALBOT_OPTIONS_BUTTON11                = "Bot\195\163o 11";
+    HEALBOT_OPTIONS_BUTTON12                = "Bot\195\163o 12";
+    HEALBOT_OPTIONS_BUTTON13                = "Bot\195\163o 13";
+    HEALBOT_OPTIONS_BUTTON14                = "Bot\195\163o 14";
+    HEALBOT_OPTIONS_BUTTON15                = "Bot\195\163o 15";
 
     HEALBOT_CLASSES_ALL                     = "Todas as classes";
     HEALBOT_CLASSES_MELEE                   = "Corpo-a-corpo";
@@ -364,7 +364,7 @@ function HealBot_Lang_ptBR()
                    [4] = "[HealBot] /hb t -- Habilitar/Desabilitar Healbot",
                    [5] = "[HealBot] /hb bt -- Habilitar/Desabilitar Monitor de Buffs",
                    [6] = "[HealBot] /hb dt -- Habilitar/Desabilitar Monitor de Debuffs",
-                   [7] = "[HealBot] /hb skin <skinName> -- Trocar Skins",
+                   [7] = "[HealBot] /hb skin <Nome do skin> -- Trocar Skins",
                    [8] = "[HealBot] /hb ui -- Recarregar UI",
                    [9] = "[HealBot] /hb hs -- Exibir comandos adicionais",
                   }
@@ -628,9 +628,8 @@ function HealBot_Lang_ptBR()
     HEALBOT_OPTIONS_LOWMANAINDICATOR4       = "*20% / **40% / ***60%"
     HEALBOT_OPTIONS_LOWMANAINDICATOR5       = "*25% / **50% / ***75%"
     HEALBOT_OPTIONS_LOWMANAINDICATOR6       = "*30% / **60% / ***90%"
-
-    HEALBOT_OPTION_IGNORE_AURA_RESTED       = "Ignorar eventos de aura quando estiver descansando"
-    HEALBOT_OPTION_ADJUST_MAX_HEALTH        = "Adjust unit max health"
+    HEALBOT_OPTION_IGNORE_AURA_RESTED       = "Ignorar aura quando descansando"
+    HEALBOT_OPTION_ADJUST_MAX_HEALTH        = "Ajustar HP m\195\161ximo da unidade"
 
     HEALBOT_WORD_ENABLE                     = "Habilitar"
     HEALBOT_WORD_DISABLE                    = "Desabilitar"
@@ -671,11 +670,11 @@ function HealBot_Lang_ptBR()
 
     HEALBOT_CUSTOM_DEBUFF_CATS = {
              -- Defaults
-            [HEALBOT_CUSTOM_CAT_CUSTOM_IMPORTANT]  = 1,
+			[HEALBOT_CUSTOM_CAT_CUSTOM_IMPORTANT]  = 1,
 			[HEALBOT_CUSTOM_CAT_CUSTOM_DAMAGE]     = 1,
-            [HEALBOT_CUSTOM_CAT_CUSTOM_EFFECT]     = 1,
-            [HEALBOT_CUSTOM_CAT_CUSTOM_MISC]       = 1,
-	}
+            		[HEALBOT_CUSTOM_CAT_CUSTOM_EFFECT]     = 1,
+            		[HEALBOT_CUSTOM_CAT_CUSTOM_MISC]       = 1,
+				}
 
     HEALBOT_ABOUT_DESC1                    = "Adiciona um painel com barras de cura, remo\195\167\195\163o de maldi\195\167\195\181es, buffs e rastreamento de aggro"
     HEALBOT_ABOUT_WEBSITE                  = "Website:"
@@ -841,19 +840,19 @@ function HealBot_Lang_ptBR()
     HEALBOT_OPTIONS_SKINAUTHOR              = "Autor do Skin:"
     HEALBOT_PLAYER_OF_REALM                 = "de"
     
-    HEALBOT_OPTIONS_LANG                    = "Language"
-    HEALBOT_OPTIONS_LANG_ZHCN               = "Chinese (zhCN - by Ydzzs)"
-    HEALBOT_OPTIONS_LANG_ENUK               = "English (enUK - by Strife)"
-    HEALBOT_OPTIONS_LANG_ENUS               = "English (enUS - by Strife)"
-    HEALBOT_OPTIONS_LANG_FRFR               = "French (frFR - by Kubik)"
-    HEALBOT_OPTIONS_LANG_DEDE               = "Deutsch (deDE - by Snaomi)"
+    HEALBOT_OPTIONS_LANG                    = "Linguagem"
+    HEALBOT_OPTIONS_LANG_ZHCN               = "Chin\195\170s (zhCN - by Ydzzs)"
+    HEALBOT_OPTIONS_LANG_ENUK               = "Ingl\195\170s UK (enUK - by Strife)"
+    HEALBOT_OPTIONS_LANG_ENUS               = "Ingl\195\170s US (enUS - by Strife)"
+    HEALBOT_OPTIONS_LANG_FRFR               = "Franc\195\170s (frFR - by Kubik)"
+    HEALBOT_OPTIONS_LANG_DEDE               = "Alem\195\163o (deDE - by Snaomi)"
     HEALBOT_OPTIONS_LANG_HUHU               = "Hungarian (huHU - by Von)"
-    HEALBOT_OPTIONS_LANG_ITIT               = "Italian (itIT - by Brezza)"
-    HEALBOT_OPTIONS_LANG_KRKR               = "Korean (krKR - translator required)"
-    HEALBOT_OPTIONS_LANG_PTBR               = "Portuguese (ptBR - by aldetal)"
-    HEALBOT_OPTIONS_LANG_RURU               = "Russian (ruRU - translator required)"
-    HEALBOT_OPTIONS_LANG_ESES               = "Spanish (esES - translator required)"
-    HEALBOT_OPTIONS_LANG_TWTW               = "Taiwanese (twTW - translator required)"
+    HEALBOT_OPTIONS_LANG_ITIT               = "Italiano (itIT - by Brezza)"
+    HEALBOT_OPTIONS_LANG_PTBR               = "Portugu\195\170s (ptBR - by Aldetal)"
+    HEALBOT_OPTIONS_LANG_KRKR               = "Coreano (krKR - translator required)"
+    HEALBOT_OPTIONS_LANG_RURU               = "Russo (ruRU - translator required)"
+    HEALBOT_OPTIONS_LANG_ESES               = "Espanhol (esES - translator required)"
+    HEALBOT_OPTIONS_LANG_TWTW               = "Taiwan\195\170s (twTW - translator required)"
     
     HEALBOT_OPTIONS_LANG_ADDON_FAIL1        = "Failed to load addon for localization"
     HEALBOT_OPTIONS_LANG_ADDON_FAIL2        = "Reason for failure is:"
@@ -878,8 +877,8 @@ function HealBot_Lang_ptBR()
     HEALBOT_OPTIONS_CONTENT_CURE_CUSTOM     = "    " .. HEALBOT_CLASSES_CUSTOM
     HEALBOT_OPTIONS_CONTENT_CURE_WARNING    = "    " .. HEALBOT_OPTIONS_TAB_WARNING
     
-    HEALBOT_SKIN_ABSORBCOL_TEXT             = "Absorb effects";
-    HEALBOT_OPTIONS_BARALPHAABSORB          = "Absorb effects opacity";
+    HEALBOT_SKIN_ABSORBCOL_TEXT             = "Efeitos de absor\195\167\195\163o";
+    HEALBOT_OPTIONS_BARALPHAABSORB          = "Opacidade de efeitos de absor\195\167\195\163o";
     HEALBOT_OPTIONS_OUTLINE                 = "Outline"
     HEALBOT_OPTIONS_FRAME                   = "Frame"
     HEALBOT_OPTIONS_CONTENT_SKINS_FRAMES    = "    " .. "Frames"
